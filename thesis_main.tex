@@ -168,7 +168,8 @@
 			backend=biber,
 			style=ext-authoryear-ibid, % Auskommentieren und nächste Zeile einkommentieren, falls "Ebd." (ebenda) nicht für sich-wiederholende Fussnoten genutzt werden soll.
 			%style=ext-authoryear,
-			maxcitenames=3,	% mindestens 3 Namen ausgeben bevor et. al. kommt
+			maxcitenames=2,	% Maximal 2 Verfasser ausgeben und dann der Zusatz et. al. - Leitfaden Januar 2024 S. 40
+			uniquelist=false, % Bei mehr als 2 Verfassern wird nur der erste Name ausgegeben und dann der Zusatz et. al - Leitfaden Januar 2024 S. 40
 			maxbibnames=999,
 			mergedate=false,
 			date=iso,
